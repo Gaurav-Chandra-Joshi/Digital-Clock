@@ -17,6 +17,16 @@ body {
     background-color: #250027;
     color: #fff;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    transform: translatey(-120px);
+    font-size: 40px;
+    cursor: pointer;
 }
 
 .container {
@@ -58,4 +68,3 @@ body {
 span {
     font-size: 50px
 }
-
